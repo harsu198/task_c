@@ -10,7 +10,7 @@ int main()
     if (fp1 = fopen("emp.txt", "r")) 
         { 
         printf("The FILE has been opened...\n"); 
-        fp2 = fopen("File_2.txt", "w"); cnt = count_characters(fp1); 
+        fp2 = fopen("harsh.txt", "w"); cnt = count_characters(fp1); 
          fseek(fp1, -1L, 2);
          printf("Number of characters to be copied %d\n", ftell(fp1)); 
         while (cnt) 
